@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AURA</string>
+    <string name="assistant_title">AURA AI Assistant</string>
+    <string name="assistant_subtitle">Voice Controlled Android System</string>
+    <string name="wake_word">Hey AURA</string>
+    
+    <!-- Strict Main Voice Interface Controls -->
+    <string name="btn_add_voice">ADD VOICE</string>
+    <string name="btn_remove_voice">REMOVE VOICE</string>
+    <string name="btn_delete_voice">DELETE VOICE</string>
+    <string name="btn_pause_voice">PAUSE VOICE</string>
+    <string name="btn_resume_voice">RESUME VOICE</string>
+
+    <!-- Navigation tabs -->
+    <string name="nav_home">Home</string>
+    <string name="nav_voice">Voice Assistant</string>
+    <string name="nav_connections">Connections</string>
+    <string name="nav_notes">Notes &amp; Reminders</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Foreground Service -->
+    <string name="service_listening">AURA is listening for "Hey AURA"</string>
+    <string name="service_paused">AURA listening is paused</string>
+    <string name="service_channel_name">AURA Voice Service</string>
+    <string name="reminder_channel_name">AURA Reminders &amp; Alarms</string>
+</resources>

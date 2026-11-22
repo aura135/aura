@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #0B0E14;
+    --surface-primary: #121722;
+    --card-primary: #1A2234;
+    --border-glow: #243048;
+    --accent-cyan: #00F2FE;
+    --accent-purple: #7F00FF;
+    --accent-magenta: #E100FF;
+  }
+
+  .light {
+    --bg-primary: #F8FAFC;
+    --surface-primary: #FFFFFF;
+    --card-primary: #F1F5F9;
+    --border-glow: #E2E8F0;
+    --accent-cyan: #0284C7;
+    --accent-purple: #6D28D9;
+    --accent-magenta: #C026D3;
+  }
+}
+
+/* Glassmorphism Cyberpunk Cards */
+.glass-card {
+  background: rgba(18, 23, 34, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(0, 242, 254, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-card-hover:hover {
+  border-color: rgba(0, 242, 254, 0.45);
+  box-shadow: 0 12px 40px -10px rgba(0, 242, 254, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Cyberpunk Neon Glow Buttons */
+.btn-neon-cyan {
+  background: linear-gradient(135deg, #00F2FE 0%, #4FACFE 100%);
+  color: #0B0E14;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgba(0, 242, 254, 0.35);
+  transition: all 0.25s ease;
+}
+.btn-neon-cyan:hover {
+  box-shadow: 0 0 30px rgba(0, 242, 254, 0.6);
+  transform: scale(1.02);
+}
+
+.btn-neon-purple {
+  background: linear-gradient(135deg, #7F00FF 0%, #E100FF 100%);
+  color: #FFFFFF;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgba(127, 0, 255, 0.35);
+  transition: all 0.25s ease;
+}
+.btn-neon-purple:hover {
+  box-shadow: 0 0 30px rgba(127, 0, 255, 0.6);
+  transform: scale(1.02);
+}
+
+.btn-neon-danger {
+  background: linear-gradient(135deg, #EF4444 0%, #B91C1C 100%);
+  color: #FFFFFF;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.35);
+  transition: all 0.25s ease;
+}
+.btn-neon-danger:hover {
+  box-shadow: 0 0 30px rgba(239, 68, 68, 0.6);
+  transform: scale(1.02);
+}
+
+.neon-text-cyan {
+  color: #00F2FE;
+  text-shadow: 0 0 12px rgba(0, 242, 254, 0.5);
+}
+
+.neon-text-purple {
+  color: #E100FF;
+  text-shadow: 0 0 12px rgba(225, 0, 255, 0.5);
+}

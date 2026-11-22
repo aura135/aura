@@ -1,0 +1,250 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "testuser_1795321996833@aura.ai",
+      "password_hash": "$2b$10$L.j.SS.VGDURFgX3cTiu3.p7Ml3onG2tbp4ITEB/VGYQMy1aBiA2e",
+      "full_name": "Test Commander",
+      "avatar_url": "",
+      "preferred_language": "te",
+      "created_at": "2026-11-22T04:33:17.005Z",
+      "updated_at": "2026-11-22T04:33:17.005Z"
+    },
+    {
+      "id": 2,
+      "email": "syncuser_1795322796805@aura.ai",
+      "password_hash": "$2b$10$rpaX2f5s5G792AhvLQ4Vuu822S7q/6/F1d8tcKwxLFm/dsm9uN9tO",
+      "full_name": "Alex Mercer",
+      "avatar_url": "",
+      "preferred_language": "te",
+      "created_at": "2026-11-22T04:46:36.915Z",
+      "updated_at": "2026-11-22T04:46:36.915Z"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "device_name": "Chrome on Pixel 8",
+      "device_type": "pwa",
+      "push_token": "test_token_123",
+      "user_agent": "",
+      "last_active": "2026-11-22T04:33:17.108Z",
+      "created_at": "2026-11-22T04:33:17.108Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Project Deliverables",
+      "category": "Work",
+      "created_at": "2026-11-22T04:33:17.090Z",
+      "updated_at": "2026-11-22T04:33:17.090Z",
+      "points": [
+        {
+          "id": 1,
+          "note_id": 1,
+          "user_id": 1,
+          "point_text": "Complete assignment",
+          "point_order": 1,
+          "created_at": "2026-11-22T04:33:17.090Z"
+        },
+        {
+          "id": 2,
+          "note_id": 1,
+          "user_id": 1,
+          "point_text": "Call project team",
+          "point_order": 2,
+          "created_at": "2026-11-22T04:33:17.091Z"
+        },
+        {
+          "id": 3,
+          "note_id": 1,
+          "user_id": 1,
+          "point_text": "Submit final report",
+          "point_order": 3,
+          "created_at": "2026-11-22T04:33:17.092Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "title": "Project Roadmap",
+      "category": "Work",
+      "created_at": "2026-11-22T04:46:36.928Z",
+      "updated_at": "2026-11-22T04:46:36.928Z"
+    }
+  ],
+  "note_points": [
+    {
+      "id": 1,
+      "note_id": 1,
+      "user_id": 1,
+      "point_text": "Complete assignment",
+      "point_order": 1,
+      "created_at": "2026-11-22T04:33:17.090Z"
+    },
+    {
+      "id": 2,
+      "note_id": 1,
+      "user_id": 1,
+      "point_text": "Call project team",
+      "point_order": 2,
+      "created_at": "2026-11-22T04:33:17.091Z"
+    },
+    {
+      "id": 3,
+      "note_id": 1,
+      "user_id": 1,
+      "point_text": "Submit final report",
+      "point_order": 3,
+      "created_at": "2026-11-22T04:33:17.092Z"
+    },
+    {
+      "id": 4,
+      "note_id": 2,
+      "user_id": 2,
+      "point_text": "Draft schema",
+      "point_order": 1,
+      "created_at": "2026-11-22T04:46:36.929Z"
+    },
+    {
+      "id": 5,
+      "note_id": 2,
+      "user_id": 2,
+      "point_text": "Implement PWA service worker",
+      "point_order": 2,
+      "created_at": "2026-11-22T04:46:36.929Z"
+    },
+    {
+      "id": 6,
+      "note_id": 2,
+      "user_id": 2,
+      "point_text": "Deploy to production",
+      "point_order": 3,
+      "created_at": "2026-11-22T04:46:36.930Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Review AURA Architecture",
+      "description": "",
+      "is_completed": true,
+      "due_date": null,
+      "created_at": "2026-11-22T04:33:17.096Z",
+      "updated_at": "2026-11-22T04:33:17.098Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "title": "Review AURA Test Coverage",
+      "description": "",
+      "is_completed": false,
+      "due_date": null,
+      "created_at": "2026-11-22T04:46:36.934Z",
+      "updated_at": "2026-11-22T04:46:36.934Z"
+    }
+  ],
+  "reminders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Free Time Review",
+      "reminder_time": 1795325597099,
+      "repeat_type": "NONE",
+      "is_free_time": true,
+      "free_time_start": "6 PM",
+      "free_time_end": "8 PM",
+      "is_completed": false,
+      "created_at": "2026-11-22T04:33:17.100Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "title": "Team Sync",
+      "reminder_time": 1795326396926,
+      "repeat_type": "NONE",
+      "is_free_time": true,
+      "free_time_start": "6 PM",
+      "free_time_end": "8 PM",
+      "is_completed": false,
+      "created_at": "2026-11-22T04:46:36.930Z"
+    }
+  ],
+  "alarms": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "hour": 6,
+      "minute": 30,
+      "label": "Morning Workout",
+      "days_of_week": "DAILY",
+      "is_enabled": true,
+      "created_at": "2026-11-22T04:33:17.102Z"
+    }
+  ],
+  "user_preferences": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "pref_key": "selected_language",
+      "pref_value": "te",
+      "updated_at": "2026-11-22T04:33:17.005Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "pref_key": "voice_enrolled",
+      "pref_value": "true",
+      "updated_at": "2026-11-22T04:33:17.006Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "pref_key": "speech_rate",
+      "pref_value": "1.2",
+      "updated_at": "2026-11-22T04:33:17.104Z"
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "pref_key": "selected_language",
+      "pref_value": "te",
+      "updated_at": "2026-11-22T04:46:36.917Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "pref_key": "voice_enrolled",
+      "pref_value": "true",
+      "updated_at": "2026-11-22T04:46:36.918Z"
+    }
+  ],
+  "command_history": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "raw_text": "Hey AURA, note this",
+      "action": "POINTS_SAVE",
+      "language": "en",
+      "success": true,
+      "response_text": "Saved 3 points",
+      "created_at": "2026-11-22T04:33:17.110Z"
+    }
+  ],
+  "sequences": {
+    "users": 3,
+    "devices": 2,
+    "notes": 3,
+    "note_points": 7,
+    "tasks": 3,
+    "reminders": 3,
+    "alarms": 2,
+    "user_preferences": 6,
+    "command_history": 2
+  }
+}

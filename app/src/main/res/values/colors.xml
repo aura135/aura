@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aura_cyan">#00F0FF</color>
+    <color name="aura_neon_purple">#7B2CBF</color>
+    <color name="aura_bg_dark">#0B0E14</color>
+    <color name="aura_surface_dark">#121620</color>
+    <color name="aura_card_dark">#181E2C</color>
+    <color name="aura_text_primary">#F0F4F8</color>
+    <color name="aura_text_secondary">#8A99AD</color>
+    <color name="aura_accent_glow">#00E5FF</color>
+    <color name="aura_danger">#FF3366</color>
+    <color name="aura_success">#00E676</color>
+    <color name="aura_warning">#FFB300</color>
+</resources>
